@@ -1,38 +1,37 @@
 #include<stdio.h>
 int main()
 {
-	char x;
+	char x; 
 	scanf("%c", &x);
-	if(x=='V')
+	if(x=='V') printf("Violet");
+	else if(x=='I')
 	{
-	  printf("Violet");	
-    }
-    else if(x=='I')
-    {
-    	printf("Indigo");
+	printf("Indigo");
 	}
 	else if(x=='B')
 	{
-		printf("Blue");
+	    printf("Blue");
 	}
 	else if(x=='G')
 	{
-		printf("Green");
+	    printf("Green");
 	}
-	else if(x=='Y')
+	else if(x=='Y') 
 	{
-		printf("Yellow");
+	    
+	    printf("Yellow");
 	}
 	else if(x=='O')
 	{
-	printf("Orange");
-    }
-    else if(x=='R')
-    {
-    	printf("Red");
+	    printf("Orange");
+	}
+	else if(x=='R')
+	{
+	    printf("Red");
 	}
 	else
 	{
-		printf("-1");
-	}
+		
+	  printf("-1");
+    }
 }
